@@ -6,7 +6,8 @@ x=1
 while [ $x -lt 10 ]
 do
     if [ $x -eq 9 ]
-    then echo "Hi"
+    then
+    echo "Hi"
     fi
     echo "Best School"
     (( x++ ))
